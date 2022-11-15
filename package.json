@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "_init-express": "node index.js",
+    "_init-pug": "pug ./pug -o ./static/html",
+    "watch": "nodemon --ext *",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.20"
+  }
+}

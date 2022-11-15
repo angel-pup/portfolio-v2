@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8' name="viewport" content="width=device-width, initial-scale=1.0")
+        title VDJS Portfolio
+        script(src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous")
+        script(src="scripts/components.js")
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css")
+    body
+        section.hero.is-fullheight
+            .hero-head
+                nav.navbar
+                    .container
+                        .navbar-brand
+                            a.navbar-item(href="")
+                                img(src="" alt="Vess")
+                            span.navbar-burger(data-target="navbarMenuHeroB")
+                                span
+                                span
+                                span
+                        #navbarMenuB.navbar-menu
+                            .navbar-end
+                                a.navbar-item.is-active Home
+                                a.navbar-item(href="skills") Experience
+                                a.navbar-item Skills
+                                a.navbar-item Hobbies
+            .hero-body
+                .container.has-text-centered
+                    p.title.pb-6 Vess Dominique Jasmine Stewart
+                    p.subtitle Currently enrolled in night classes for Full Stack Web Development via Univeristy of Kansas
+                    p.subtitle An Eternal Student,  with a proclivity for coding!
+            .hero-foot
+                nav.tabs.is-boxed.is-fullwidth
+                    .container
+                        ul
+                            li.is-active
+                                a.nav Title
+                            li
+                                a.nav About
